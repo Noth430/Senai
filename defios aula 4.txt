@@ -1,0 +1,61 @@
+
+
+DESAFIO #2
+R= (A OR B ) AND NOT (A AND B )
+(V) AND NOT (F) = R
+V AND V = R
+V
+
+
+
+DESAFIO #3
+R= NOT(V AND F) AND NOT(V OR F)
+R= NOT (F) AND (V)
+R= V AND F 
+R= F
+
+DESAFIO # 4
+R= ((V AND F) AND (V OR F )) OR (V AND F)
+R= ( F AND V) OR (F)
+R= ( F OR F )
+R= F 
+
+DEFAFIO # 5
+R= (V OR F ) OR (NOT(V AND F ) OR NOT(V OR F))
+R= (V OR) NOT(F) OR NOT(V OR F))
+R= (V OR V)
+R= V
+
+DESAFIO #6
+R= NOT(V OR F ) AND (NOT(V OR F ) OR (V AND F)
+R= F AND ( F OR  F)
+R= F AND F 
+R= F
+
+DESAFIO #7
+R= (V OR F) OR ((V AND F) AND NOT (V OR F)))
+R= V OR ((F) AND NOT ( V))
+R=  V OR ( F AND F )
+R= V OR F 
+R= V
+
+DESAFIO #8
+R= (NOT(V AND F) AND (V AND F )) OR (V OR F)
+R= (NOT) (F) AND (V AND F)) OR (V OR F)
+R= V AND(F) OR (V OR F)
+R= F OR (V)
+R= V
+
+DESAFIO #9
+R= ((NOT(V) OR ) AND NOT(V AND F))=OR NOT(V OR F)
+R= ( F ) OR ) AND NOT ( V AND F)) OR NOT (V OR F)	
+R=  F  OR NOT
+R= (F AND F) OR F
+R= F
+
+DESAFIO #10
+R= ((NOT(V) OR F) AND (V AND NOT(F)) OR NOT(V OR F)
+R= (F OR F) AND (V AND NOT (F)) OR NOT (V OR F) 
+R= F AND F) OR NOT(F)
+R= F FOR F 
+R= F
